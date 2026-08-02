@@ -2,7 +2,7 @@
 
 **Computer Engineering Student & Researcher**
 
-Welcome to my portfolio! I am a final-year Computer Engineering student at Thapar Institute of Engineering and Technology, with a strong focus on Machine Learning, Federated Learning, and Mobile Development. 
+Welcome to my portfolio! I am a Computer Engineering student at Thapar Institute of Engineering and Technology, with a strong focus on Machine Learning, Federated Learning, and Mobile Development. 
 
 ---
 
