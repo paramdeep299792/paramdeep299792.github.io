@@ -1,15 +1,19 @@
 site_name: Paramdeep Singh Gill
-site_url: https://paramdeepsinghgill16.github.io/
-site_description: Portfolio and Resume of Paramdeep Singh Gill
+site_url: https://paramdeepsinghgill16.net/
+site_description: Portfolio website Paramdeep Singh Gill
 
 # Enable the ReadTheDocs theme
 theme:
   name: readthedocs
+  custom_dir: overrides
+  favicon: assets/favicon.svg
   highlightjs: true # Enables syntax highlighting for code blocks
   navigation_depth: 2 # Keeps the sidebar clean
 
 # Sidebar Navigation Menu
 nav:
   - Home: index.md
-  - My Projects: projects.md
-  - Resume & Skills: resume.md
+  - Experience & Education: experience.md
+  - Projects & Research: projects.md
+  - Awards & Extracurriculars: achievements.md
+  - CV: cv.md

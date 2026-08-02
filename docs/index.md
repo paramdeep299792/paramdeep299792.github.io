@@ -1,17 +1,16 @@
-# Welcome to MkDocs
+# Paramdeep Singh Gill
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+**Computer Engineering Student & Researcher**
 
-## Commands
+Welcome to my portfolio! I am a final-year Computer Engineering student at Thapar Institute of Engineering and Technology, with a strong focus on Machine Learning, Federated Learning, and Mobile Development. 
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+---
 
-## Project layout
+## Technical & Research Skills
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+| Category | Technologies |
+|----------|--------------|
+| **Machine Learning & AI** | PyTorch, InterpretML, NVFlare, OpenCV, NumPy, Matplotlib, Knowledge Distillation, Federated Learning |
+| **Programming Languages** | C, C++, Python, Dart, HTML, CSS, SQL |
+| **Development Frameworks**| Django, Flutter, Firebase |
+| **Research & Tools** | Git, GitHub, VS Code, JupyterLab, LaTeX, AsciiDoc, Zotero |
