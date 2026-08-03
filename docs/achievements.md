@@ -1,22 +1,38 @@
-# Awards, Extracurriculars & References
+# Awards & Activities
 
 ## Awards and Recognition
 
-* **Runner-Up, HackForSustainability (2023):** Organized by Saturnalia Fest for "Project Saarthi".
-* **Winner, Smart India Hackathon (2022):** Senior Software Edition. Acted as Team Leader and Front-End Developer for a problem statement under the Ministry of Education.
-* **Merit Scholarship – II (2022):** Awarded full tuition fee waiver from TIET.
-* **Dr. Stya Paul Award for Human Values (2020):** Senior Secondary Category scholarship at Apeejay School.
-* **ATL Student Innovator Award (2019):** Certificate of Merit by Atal Innovation Mission, Niti Aayog.
-* **National Championship Qualifier, WRO (2016 & 2017):** Secured 3rd position in Regional Championship of World Robot Olympiad in 2017.
+- **Runner-Ups - HackForSustainability (2023)**  
+*Patiala, Punjab*  
+  Organised by Saturnalia Fest (largest in North India) for Project Saarthi
+
+- **Winner - Smart India Hackathon (SIH) (Senior Software Edition) (Aug 2022)**  
+*Karnataka*  
+  Team Leader and Front-End Developer (Problem Statement under DoSEL, Ministry of Education)
+
+- **Awarded Merit Scholarship – II (Tuition fee waive off) (2022)**  
+*Patiala, Punjab*  
+  From Thapar Insitute of Engineering and Technology
+
+- **Dr Stya Paul Award for Human Values – 2020 (2020)**  
+*Jalandhar, Punjab*  
+  In Senior Secondary Category and scholarship at Apeejay School, Mahavir Marg
+
+- **ATL Student Innovator Award (2019)**  
+*Jalandhar, Punjab*  
+  Certificate of Merit by Atal Innovation Mission, Niti Aayog
+
+- **Qualified for National Championship of World Robot Olympiad (WRO) (2016 and 2017)**  
+  
+  For the year 2016 & 2017. Secured third position in Regional Championship of WRO 2017.
 
 ---
 
-## Extra-Curricular & Volunteer Work
+## Extracurricular and Volunteer
 
-* **International Conference on Statistical Learning (ICSL) (2025):** Presented the "ThaparSat research project" at IIT Ropar.
-* **Center for Training and Development (CTD) (2021 – 2022):** Senior Coordinator. Coordinated the Placement Symposium for UG final-year students.
-* **Open Web Application Security Project (OWASP) (2022 – 2023):** Delivered a talk on “Blockchain Technology” during the Orientation Session.
-* **International Award for Young People (IAYP) (2019):** Successfully completed Bronze Category Course.
-* **Prefectorial Board (2019 – 2021):** Served as Captain and Vice-Captain of Cleanliness at Apeejay School.
+- **International Conference on Statistical Learning (ICSL) (2025)**  
+  Presented 'Systematic Approach to Enhance Signal Quality...'
 
----
+- **Center for Training and Development (CTD) (2021 -- 2022)**  
+  Senior Coordinator: Coordinated the Placement Symposium.
+

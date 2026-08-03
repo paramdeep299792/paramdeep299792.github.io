@@ -2,30 +2,29 @@
 
 ## Work Experience
 
-**Research Intern** | [IIT Ropar](https://www.iitrpr.ac.in/)  
-*Rupnagar, Punjab (Jan 2025 – Jun 2025)*  
-* Exploring Knowledge Distillation for Model Compression in the Medical Domain.
-* Working under the guidance of [Dr. Deepti Reddy Bathula](https://drbathula.github.io/).
+### [IIT Ropar](https://www.iitrpr.ac.in/)
+**Research intern** | *January 2025 -- June 2025*  
+*Rupnagar, Punjab*
+- Explored Knowledge Distillation for Model Compression in Medical Domain. Under the guidance of Dr. Deepti Reddy Bathula (Indian Institute of Technology (IIT) Ropar, India)
 
-**Android Developer Intern** | [AgNext](https://agnext.com/)  
-*S.A.S. Nagar, Punjab (May 2023 – Aug 2023)*  
-* Built Android applications using Flutter that connect to and interface with BLE (Bluetooth Low Energy) devices.
+### [AgNext](https://agnext.com/)
+**Android developer intern** | *May 2023 -- August 2023*  
+*Sahibzada Ajit Singh (S.A.S.) nagar, Punjab*
+- Flutter: Built android apps that connect to BLE devices.
 
 ---
 
 ## Education
 
-**Bachelor of Engineering in Computer Engineering**  
-*Thapar Institute of Engineering and Technology (TIET) — Patiala, Punjab*  
-* **Duration:** Sep 2021 – Jun 2025
-* **CGPA:** 8.09
+### Thapar Insitute of Engineering and Technology (TIET)
+**Bachelor of Engineering in Computer Engineering, CGPA: 8.09** | *Sep 2021 -- Jun 2025*  
+*Patiala, Punjab*
 
-**Senior Secondary (10+2 Non-Medical)**  
-*Apeejay School (C.B.S.E. affiliated) — Jalandhar, Punjab*  
-* **Year:** 2021
-* **Percentage:** 95.60%
+### Apeejay School, Mahavir Marg (C.B.S.E. affliated)
+**10 + 2 (Non Medical), Percentage: 95.60%** | *2021*  
+*Jalandhar, Punjab*
 
-**Matriculation (10th)**  
-*Apeejay School (C.B.S.E. affiliated) — Jalandhar, Punjab*  
-* **Year:** 2019
-* **Percentage:** 90.33%
+### Apeejay School, Mahavir Marg (C.B.S.E. affliated)
+**10, Percentage: 90.33%** | *2019*  
+*Jalandhar, Punjab*
+

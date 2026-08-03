@@ -14,6 +14,7 @@ theme:
 nav:
   - Home: index.md
   - Experience & Education: experience.md
-  - Projects & Research: projects.md
-  - Awards & Extracurriculars: achievements.md
+  - Projects: projects.md
+  - Awards & Activities: achievements.md
   - CV: cv.md
+  - References: references.md

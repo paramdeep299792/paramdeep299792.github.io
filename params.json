@@ -1,0 +1,178 @@
+{
+  "basics": {
+    "name": "Paramdeep Singh Gill",
+    "phone": "+91 78147 08827",
+    "email": "paramdeepsinghgill16@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/paramdeepsinghgill16/",
+    "github": "https://github.com/paramdeepsinghgill16"
+  },
+  "education": [
+    {
+      "institution": "Thapar Insitute of Engineering and Technology (TIET)",
+      "location": "Patiala, Punjab",
+      "degree": "Bachelor of Engineering in Computer Engineering, CGPA: 8.09",
+      "dates": "Sep 2021 -- Jun 2025"
+    },
+    {
+      "institution": "Apeejay School, Mahavir Marg (C.B.S.E. affliated)",
+      "location": "Jalandhar, Punjab",
+      "degree": "10 + 2 (Non Medical), Percentage: 95.60\\%",
+      "dates": "2021"
+    },
+    {
+      "institution": "Apeejay School, Mahavir Marg (C.B.S.E. affliated)",
+      "location": "Jalandhar, Punjab",
+      "degree": "10, Percentage: 90.33\\%",
+      "dates": "2019"
+    }
+  ],
+  "experience": [
+    {
+      "company": "IIT Ropar",
+      "company_url": "https://www.iitrpr.ac.in/",
+      "location": "Rupnagar, Punjab",
+      "title": "Research intern",
+      "dates": "January 2025 -- June 2025",
+      "highlights": [
+        "Explored Knowledge Distillation for Model Compression in Medical Domain. Under the guidance of Dr. Deepti Reddy Bathula (Indian Institute of Technology (IIT) Ropar, India)"
+      ]
+    },
+    {
+      "company": "AgNext",
+      "company_url": "https://agnext.com/",
+      "location": "Sahibzada Ajit Singh (S.A.S.) nagar, Punjab",
+      "title": "Android developer intern",
+      "dates": "May 2023 -- August 2023",
+      "highlights": [
+        "Flutter: Built android apps that connect to BLE devices."
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Runner-Ups - HackForSustainability",
+      "year": "2023",
+      "description": "Organised by Saturnalia Fest (largest in North India) for Project Saarthi",
+      "location": "Patiala, Punjab"
+    },
+    {
+      "title": "Winner - Smart India Hackathon (SIH) (Senior Software Edition)",
+      "year": "Aug 2022",
+      "description": "Team Leader and Front-End Developer (Problem Statement under DoSEL, Ministry of Education)",
+      "location": "Karnataka"
+    },
+    {
+      "title": "Awarded Merit Scholarship – II (Tuition fee waive off)",
+      "year": "2022",
+      "description": "From Thapar Insitute of Engineering and Technology",
+      "location": "Patiala, Punjab"
+    },
+    {
+      "title": "Dr Stya Paul Award for Human Values – 2020",
+      "year": "2020",
+      "description": "In Senior Secondary Category and scholarship at Apeejay School, Mahavir Marg",
+      "location": "Jalandhar, Punjab"
+    },
+    {
+      "title": "ATL Student Innovator Award",
+      "year": "2019",
+      "description": "Certificate of Merit by Atal Innovation Mission, Niti Aayog",
+      "location": "Jalandhar, Punjab"
+    },
+    {
+      "title": "Qualified for National Championship of World Robot Olympiad (WRO)",
+      "year": "2016 and 2017",
+      "description": "For the year 2016 \\& 2017. Secured third position in Regional Championship of WRO 2017.",
+      "location": ""
+    }
+  ],
+  "ongoing_projects": [
+    {
+      "title": "XAI-FL",
+      "year": "2026",
+      "type": "Research project",
+      "location": "Remote",
+      "highlights": [
+        "Trying to integrate XAI (Explainable Artificial Intelligence) on models trained using FL (Federated Learning). With a focus on using privacy preserving techniques like Differential Privacy.",
+        "Guide: Dr. Parteek Kumar Bhatia (WSU, USA) and Dr. Sachin Kansal (TIET, India)",
+        "Technology used: PyTorch, InterpretML, NVFlare."
+      ]
+    },
+    {
+      "title": "BioFL",
+      "year": "2026",
+      "type": "Research project",
+      "location": "Remote",
+      "highlights": [
+        "Working on applying Federated Learning (FL) on unexplored biomedical datasets.",
+        "Guide: Dr. Parteek Kumar Bhatia (WSU, USA) and Dr. Kashish Goyal (TIET, India)",
+        "Technology used: PyTorch, InterpretML."
+      ]
+    },
+    {
+      "title": "Deepfake Detection",
+      "year": "2026",
+      "type": "Group Research project",
+      "location": "Remote",
+      "highlights": [
+        "Working on building a model to detect deepfake in dataset having audio video modality.",
+        "Guide: Dr. Shefali Arora Chouhan (NIT Jalandhar, India)",
+        "Technology used: PyTorch"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "ThaparSat research project",
+      "year": "2024",
+      "type": "Solo project",
+      "location": "Patiala, Punjab",
+      "highlights": [
+        "Systematic Approach to Enhance Signal Quality and Noise Reduction in Remote Sensing and Astrophysical Applications",
+        "Capstone project under the guidance of Dr. Seema Bawa and Dr. Mamta Gulati"
+      ]
+    },
+    {
+      "title": "Vriddhi App",
+      "year": "2022",
+      "type": "Group Project",
+      "location": "Patiala, Punjab",
+      "highlights": [
+        "An app to guide parents to facilitate and ensure holistic growth in cognitive, psychomotor and affective domains. Contributed in the front-end of the app (using Flutter-Dart).",
+        "Technology used: Flutter-Dart, Firebase, GetX, React Js, Chart Js, Swiper Js, Figma."
+      ]
+    }
+  ],
+  "skills": {
+    "Machine Learning \\& AI": "PyTorch, InterpretML, NVFlare, OpenCV, NumPy, Matplotlib, Knowledge Distillation, Federated Learning",
+    "Programming Languages": "C, C++, Python, Dart, HTML, CSS, SQL",
+    "Research \\& Academic Tools": "LaTeX, AsciiDoc, Zotero, Git, GitHub, VS Code, JupyterLab",
+    "Development Frameworks": "Django, Flutter, Firebase"
+  },
+  "extracurricular": [
+    {
+      "title": "International Conference on Statistical Learning (ICSL)",
+      "year": "2025",
+      "description": "Presented 'Systematic Approach to Enhance Signal Quality...'"
+    },
+    {
+      "title": "Center for Training and Development (CTD)",
+      "year": "2021 -- 2022",
+      "description": "Senior Coordinator: Coordinated the Placement Symposium."
+    }
+  ],
+  "references": [
+    {
+      "name": "Dr. Deepti Reddy Bathula",
+      "contact": "bathula@iitrpr.ac.in",
+      "role": "Associate Professor, IIT Ropar",
+      "location": "Rupnagar, Punjab"
+    },
+    {
+      "name": "Dr. Seema Bawa",
+      "contact": "seema@thapar.edu",
+      "role": "Professor, TIET",
+      "location": "Patiala, Punjab"
+    }
+  ]
+}
