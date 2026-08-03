@@ -1,5 +1,11 @@
 {% extends "base.html" %}
 
+{% block extrahead %}
+{{ super() }}
+<link rel="icon" type="image/svg+xml" href="{{ base_url }}/assets/favicon.svg">
+<link rel="icon" type="image/png" href="{{ base_url }}/assets/favicon.png">
+{% endblock %}
+
 {% block content %}
 <style>
   .profile-card {

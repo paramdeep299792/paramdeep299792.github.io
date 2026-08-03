@@ -1,46 +1,149 @@
 import json
 import jinja2
 from pathlib import Path
+import argparse
+import sys
+import logging
+import subprocess
+import shutil
 
-# Set up paths relative to this script
-src_dir = Path(__file__).resolve().parent
-root_dir = src_dir.parent
-templates_dir = root_dir / 'templates'
-docs_dir = root_dir / 'docs'
+from .core.utils.general import exception_handler
+from .core.utils.logging_config import setup_logging
 
-# Ensure the docs directory exists for MkDocs
-docs_dir.mkdir(exist_ok=True)
+logger = logging.getLogger(__name__)
 
-# 1. Load the JSON data
-with open(root_dir / 'params.json', 'r') as f:
-    data = json.load(f)
+def main(args: argparse.Namespace) -> None:
+    try:
+        cv = args.cv
+        website = args.website
 
-# 2. Configure Jinja2 for Markdown (Using standard {{ }} and {% %} tags)
-md_jinja_env = jinja2.Environment(
-    loader=jinja2.FileSystemLoader(templates_dir),
-    trim_blocks=True,
-    lstrip_blocks=True,
-    autoescape=False
-)
+        if cv:
+            src_dir = Path(__file__).resolve().parent
+            root_dir = src_dir.parent
 
-# 3. Define which templates map to which output files
-pages = {
-    'index.md': 'index.md',
-    'experience.md': 'experience.md',
-    'projects.md': 'projects.md',
-    'achievements.md': 'achievements.md',
-    'references.md': 'references.md'
-}
+            # 1. Load the JSON data
+            with open(root_dir / 'params.json', 'r') as f:
+                data = json.load(f)
 
-# 4. Render each template and save it to the docs/ folder
-for template_name, output_name in pages.items():
-    template = md_jinja_env.get_template(template_name)
-    rendered_md = template.render(data)
+            templates_dir = root_dir / 'src' / 'templates'
+
+            # 2. Configure Jinja2
+            latex_jinja_env = jinja2.Environment(
+                block_start_string=r'\BLOCK{',
+                block_end_string='}',
+                variable_start_string=r'\VAR{',
+                variable_end_string='}',
+                comment_start_string=r'\#{',
+                comment_end_string='}',
+                trim_blocks=True,
+                autoescape=False,
+                loader=jinja2.FileSystemLoader(templates_dir)
+            )
+
+            template = latex_jinja_env.get_template('cv.tex')
+            rendered_tex = template.render(data)
+
+            with open(root_dir / 'main.tex', 'w') as f:
+                f.write(rendered_tex)
+
+            output_dir = root_dir / "temp"
+            output_dir.mkdir(exist_ok=True)
+
+            final_destination = root_dir / "docs" / "assets" / "CV.pdf"
+
+            try:
+                subprocess.run(
+                    [
+                        "latexmk",
+                        "-pdf",
+                        "-interaction=nonstopmode",
+                        "-jobname=CV",
+                        f"-outdir={output_dir}",
+                        str(root_dir / "main.tex")
+                    ], 
+                    cwd=root_dir, 
+                    check=True
+                )
+                source_pdf = output_dir / "CV.pdf"
     
-    output_path = docs_dir / output_name
-    with open(output_path, 'w') as f:
-        f.write(rendered_md)
-        
-    print(f"Generated: docs/{output_name}")
+                if source_pdf.exists():
+                    shutil.copy2(source_pdf, final_destination)
+                    logger.info(f"Success! PDF copied to {final_destination}")
+            finally:
+                subprocess.run(
+                    [
+                        "latexmk",
+                        "-c",
+                        "-jobname=CV",
+                        f"-outdir={output_dir}",
+                        str(root_dir / "main.tex")
+                    ], 
+                    cwd=root_dir, 
+                    check=False
+                )
 
-print("MkDocs Markdown generation complete!")
+            logger.info("Resume generated successfully!")
+
+        if website:
+            src_dir = Path(__file__).resolve().parent
+            root_dir = src_dir.parent
+
+            setup_logging(
+                log_file=root_dir / "build.log",
+                reset_log=True
+            )
+
+            templates_dir = root_dir / 'src' / 'templates'
+            docs_dir = root_dir / 'docs'
+            docs_dir.mkdir(exist_ok=True)
+
+            with open(root_dir / 'params.json', 'r') as f:
+                data = json.load(f)
+
+            md_jinja_env = jinja2.Environment(
+                loader=jinja2.FileSystemLoader(templates_dir),
+                trim_blocks=True,
+                lstrip_blocks=True,
+                autoescape=False
+            )
+
+            pages = {
+                'index.md': 'index.md',
+                'experience.md': 'experience.md',
+                'projects.md': 'projects.md',
+                'achievements.md': 'achievements.md',
+                'references.md': 'references.md'
+            }
+
+            for template_name, output_name in pages.items():
+                template = md_jinja_env.get_template(template_name)
+                rendered_md = template.render(data)
+                
+                output_path = docs_dir / output_name
+                with open(output_path, 'w') as f:
+                    f.write(rendered_md)
+                    
+                logger.info(f"Generated: docs/{output_name}")
+
+            logger.info("MkDocs Markdown generation complete!")
+    except Exception as e:
+        exception_handler(e)
+
+def cli() -> None:
+    parser = argparse.ArgumentParser(
+        description="This script is used to build the portfolio from params.json file. You must provide a valid flag to run."
+    )
+
+    parser.add_argument("-website", "--website", action="store_true", help="To create the website.")
+    parser.add_argument("-cv", "--cv", action="store_true", help="To create CV.")
+
+    if len(sys.argv) == 1:
+        parser.print_help(sys.stderr)
+        sys.exit(1)
+
+    args = parser.parse_args()
+
+    main(args)
+    
+if __name__ == "__main__":
+    cli()

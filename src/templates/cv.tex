@@ -1,0 +1,210 @@
+%-------------------------
+% Resume in LateX
+% Author : Paramdeep Singh Gill
+% Based off of: https://github.com/sb2nov/resume
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate PDF is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+\setlength{\footskip}{4.08003pt}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\setlength{\footskip}{4.08003pt}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+    \textbf{\Huge \VAR{basics.name}}
+\end{center}
+
+\begin{center}   
+\href{\VAR{basics.website}}{\underline{paramdeepsinghgill16.net}} $|$
+\href{mailto:\VAR{basics.email}}{\underline{\VAR{basics.email}}} $|$
+\href{\VAR{basics.linkedin}}{\underline{linkedin.com/in/paramdeepsinghgill16}} $|$
+\href{\VAR{basics.github}}{\underline{github.com/paramdeepsinghgill16}} 
+\end{center}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+  \BLOCK{for edu in education}
+    \resumeSubheading
+      {\VAR{edu.institution}}{\VAR{edu.location}}
+      {\VAR{edu.degree}}{\VAR{edu.dates}}
+  \BLOCK{endfor}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+  \BLOCK{for exp in experience}
+    \resumeSubheading
+      {\href{\VAR{exp.company_url}}{\underline{\VAR{exp.company}}}}{\VAR{exp.location}}
+      {\VAR{exp.title}}{\VAR{exp.dates}}
+      \BLOCK{if exp.highlights}
+      \resumeItemListStart
+        \BLOCK{for highlight in exp.highlights}
+        \resumeItem{\VAR{highlight}}
+        \BLOCK{endfor}
+      \resumeItemListEnd
+      \BLOCK{endif}
+  \BLOCK{endfor}
+  \resumeSubHeadingListEnd
+
+%-----------AWARDS-----------------
+\section{Awards and Recognition}
+  \resumeSubHeadingListStart
+  \BLOCK{for award in awards}
+    \resumeSubheading
+      {\VAR{award.title}}{\VAR{award.year}}
+      {\VAR{award.description}}{\VAR{award.location | default('')}}
+  \BLOCK{endfor}
+  \resumeSubHeadingListEnd
+
+%-----------ON-GOING PROJECTS-----------------
+\section{On-going Projects}
+  \resumeSubHeadingListStart
+  \BLOCK{for proj in ongoing_projects}
+    \resumeSubheading
+      {\VAR{proj.title}}{\VAR{proj.year}}
+      {\VAR{proj.type}}{\VAR{proj.location | default('')}}
+      \BLOCK{if proj.highlights}
+      \resumeItemListStart
+        \BLOCK{for highlight in proj.highlights}
+        \resumeItem{\VAR{highlight}}
+        \BLOCK{endfor}
+      \resumeItemListEnd
+      \BLOCK{endif}
+  \BLOCK{endfor}
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+  \BLOCK{for proj in projects}
+    \resumeSubheading
+      {\VAR{proj.title}}{\VAR{proj.year}}
+      {\VAR{proj.type}}{\VAR{proj.location | default('')}}
+      \BLOCK{if proj.highlights}
+      \resumeItemListStart
+        \BLOCK{for highlight in proj.highlights}
+        \resumeItem{\VAR{highlight}}
+        \BLOCK{endfor}
+      \resumeItemListEnd
+      \BLOCK{endif}
+  \BLOCK{endfor}
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------------
+\section{Technical \& Research Skills}
+ \resumeSubHeadingListStart
+   \item{
+   \BLOCK{for category, tools in skills.items()}
+     \textbf{\VAR{category}}{: \VAR{tools}} \BLOCK{if not loop.last}\\ \BLOCK{endif}
+   \BLOCK{endfor}
+   }
+ \resumeSubHeadingListEnd
+
+%-----------EXTRA-CURRICULAR-----------------
+\section{Extra-Curricular and Volunteer}
+\resumeSubHeadingListStart
+\BLOCK{for extra in extracurricular}
+  \resumeSubheading
+    {\VAR{extra.title}}{\VAR{extra.year}}
+    {\VAR{extra.description}}{\VAR{extra.location}} 
+\BLOCK{endfor}
+\resumeSubHeadingListEnd
+
+%-----------REFERENCES-----------------
+\section{References}
+\resumeSubHeadingListStart
+\BLOCK{for ref in references}
+  \resumeSubheading
+    {\VAR{ref.name}}{\href{mailto:\VAR{ref.contact}}{\underline{\VAR{ref.contact}}}}
+    {\VAR{ref.role}}{\VAR{ref.location}}
+\BLOCK{endfor}
+\resumeSubHeadingListEnd
+
+\end{document}

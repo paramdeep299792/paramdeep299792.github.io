@@ -28,11 +28,21 @@
 
 ---
 
-## Extracurricular and Volunteer
+## Extracurricular and Volunteering Activities
 
 - **International Conference on Statistical Learning (ICSL) (2025)**  
   Presented 'Systematic Approach to Enhance Signal Quality...'
+  Location: Rupnagar, Punjab
 
-- **Center for Training and Development (CTD) (2021 -- 2022)**  
+- **Open Web Application Security Project (OWASP) (2022 - 2023)**  
+  Team Member: Presented a session on blockchain as part of orientation of first year students.
+  Location: Patiala, Punjab
+
+- **Center for Training and Development (CTD) (2021 -- 2023)**  
   Senior Coordinator: Coordinated the Placement Symposium.
+  Location: Patiala, Punjab
+
+- **International Award for Young People (IAYP) (2019)**  
+  Successfully completed Bronze Category Course.
+  Location: Jalandhar, Punjab
 

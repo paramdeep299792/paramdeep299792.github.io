@@ -1,0 +1,246 @@
+%-------------------------
+% Resume in LateX
+% Author : Paramdeep Singh Gill
+% Based off of: https://github.com/sb2nov/resume
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate PDF is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+\setlength{\footskip}{4.08003pt}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\setlength{\footskip}{4.08003pt}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+    \textbf{\Huge Paramdeep Singh Gill}
+\end{center}
+
+\begin{center}   
+\href{https://www.paramdeepsinghgill16.net}{\underline{paramdeepsinghgill16.net}} $|$
+\href{mailto:paramdeepsinghgill16@gmail.com}{\underline{paramdeepsinghgill16@gmail.com}} $|$
+\href{https://www.linkedin.com/in/paramdeepsinghgill16/}{\underline{linkedin.com/in/paramdeepsinghgill16}} $|$
+\href{https://github.com/paramdeepsinghgill16}{\underline{github.com/paramdeepsinghgill16}} 
+\end{center}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {Thapar Insitute of Engineering and Technology (TIET)}{Patiala, Punjab}
+      {Bachelor of Engineering in Computer Engineering, CGPA: 8.09}{Sep 2021 -- Jun 2025}
+      \resumeSubheading
+      {Apeejay School, Mahavir Marg (C.B.S.E. affliated)}{Jalandhar, Punjab}
+      {10 + 2 (Non Medical), Percentage: 95.60\%}{2021}
+      \resumeSubheading
+      {Apeejay School, Mahavir Marg (C.B.S.E. affliated)}{Jalandhar, Punjab}
+      {10, Percentage: 90.33\%}{2019}
+    \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {\href{https://www.iitrpr.ac.in/}{\underline{IIT Ropar}}}{Rupnagar, Punjab}
+      {Research intern}{January 2025 -- June 2025}
+            \resumeItemListStart
+                \resumeItem{Explored Knowledge Distillation for Model Compression in Medical Domain. Under the guidance of Dr. Deepti Reddy Bathula (Indian Institute of Technology (IIT) Ropar, India)}
+              \resumeItemListEnd
+            \resumeSubheading
+      {\href{https://agnext.com/}{\underline{AgNext}}}{Sahibzada Ajit Singh (S.A.S.) nagar, Punjab}
+      {Android developer intern}{May 2023 -- August 2023}
+            \resumeItemListStart
+                \resumeItem{Flutter: Built android apps that connect to BLE devices.}
+              \resumeItemListEnd
+          \resumeSubHeadingListEnd
+
+%-----------AWARDS-----------------
+\section{Awards and Recognition}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {Runner-Ups - HackForSustainability}{2023}
+      {Organised by Saturnalia Fest (largest in North India) for Project Saarthi}{Patiala, Punjab}
+      \resumeSubheading
+      {Winner - Smart India Hackathon (SIH) (Senior Software Edition)}{Aug 2022}
+      {Team Leader and Front-End Developer (Problem Statement under DoSEL, Ministry of Education)}{Karnataka}
+      \resumeSubheading
+      {Awarded Merit Scholarship – II (Tuition fee waive off)}{2022}
+      {From Thapar Insitute of Engineering and Technology}{Patiala, Punjab}
+      \resumeSubheading
+      {Dr Stya Paul Award for Human Values – 2020}{2020}
+      {In Senior Secondary Category and scholarship at Apeejay School, Mahavir Marg}{Jalandhar, Punjab}
+      \resumeSubheading
+      {ATL Student Innovator Award}{2019}
+      {Certificate of Merit by Atal Innovation Mission, Niti Aayog}{Jalandhar, Punjab}
+      \resumeSubheading
+      {Qualified for National Championship of World Robot Olympiad (WRO)}{2016 and 2017}
+      {For the year 2016 \& 2017. Secured third position in Regional Championship of WRO 2017.}{}
+    \resumeSubHeadingListEnd
+
+%-----------ON-GOING PROJECTS-----------------
+\section{On-going Projects}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {XAI-FL}{2026}
+      {Research project}{Remote}
+            \resumeItemListStart
+                \resumeItem{Trying to integrate XAI (Explainable Artificial Intelligence) on models trained using FL (Federated Learning). With a focus on using privacy preserving techniques like Differential Privacy.}
+                \resumeItem{Guide: Dr. Parteek Kumar Bhatia (WSU, USA) and Dr. Sachin Kansal (TIET, India)}
+                \resumeItem{Technology used: PyTorch, InterpretML, NVFlare.}
+              \resumeItemListEnd
+            \resumeSubheading
+      {BioFL}{2026}
+      {Research project}{Remote}
+            \resumeItemListStart
+                \resumeItem{Working on applying Federated Learning (FL) on unexplored biomedical datasets.}
+                \resumeItem{Guide: Dr. Parteek Kumar Bhatia (WSU, USA) and Dr. Kashish Goyal (TIET, India)}
+                \resumeItem{Technology used: PyTorch, InterpretML.}
+              \resumeItemListEnd
+            \resumeSubheading
+      {Deepfake Detection}{2026}
+      {Group Research project}{Remote}
+            \resumeItemListStart
+                \resumeItem{Working on building a model to detect deepfake in dataset having audio video modality.}
+                \resumeItem{Guide: Dr. Shefali Arora Chouhan (NIT Jalandhar, India)}
+                \resumeItem{Technology used: PyTorch}
+              \resumeItemListEnd
+          \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {ThaparSat research project}{2024}
+      {Solo project}{Patiala, Punjab}
+            \resumeItemListStart
+                \resumeItem{Systematic Approach to Enhance Signal Quality and Noise Reduction in Remote Sensing and Astrophysical Applications}
+                \resumeItem{Capstone project under the guidance of Dr. Seema Bawa and Dr. Mamta Gulati}
+              \resumeItemListEnd
+            \resumeSubheading
+      {Vriddhi App}{2022}
+      {Group Project}{Patiala, Punjab}
+            \resumeItemListStart
+                \resumeItem{An app to guide parents to facilitate and ensure holistic growth in cognitive, psychomotor and affective domains. Contributed in the front-end of the app (using Flutter-Dart).}
+                \resumeItem{Technology used: Flutter-Dart, Firebase, GetX, React Js, Chart Js, Swiper Js, Figma.}
+              \resumeItemListEnd
+          \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------------
+\section{Technical \& Research Skills}
+ \resumeSubHeadingListStart
+   \item{
+        \textbf{Machine Learning \& AI}{: PyTorch, InterpretML, NVFlare, OpenCV, NumPy, Matplotlib, Knowledge Distillation, Federated Learning} \\         \textbf{Programming Languages}{: C, C++, Python, Dart, HTML, CSS, SQL} \\         \textbf{Research \& Academic Tools}{: LaTeX, AsciiDoc, Zotero, Git, GitHub, VS Code, JupyterLab} \\         \textbf{Development Frameworks}{: Django, Flutter, Firebase}       }
+ \resumeSubHeadingListEnd
+
+%-----------EXTRA-CURRICULAR-----------------
+\section{Extra-Curricular and Volunteer}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {International Conference on Statistical Learning (ICSL)}{2025}
+    {Presented 'Systematic Approach to Enhance Signal Quality...'}{Rupnagar, Punjab} 
+  \resumeSubheading
+    {Open Web Application Security Project (OWASP)}{2022 - 2023}
+    {Team Member: Presented a session on blockchain as part of orientation of first year students.}{Patiala, Punjab} 
+  \resumeSubheading
+    {Center for Training and Development (CTD)}{2021 -- 2023}
+    {Senior Coordinator: Coordinated the Placement Symposium.}{Patiala, Punjab} 
+  \resumeSubheading
+    {International Award for Young People (IAYP)}{2019}
+    {Successfully completed Bronze Category Course.}{Jalandhar, Punjab} 
+\resumeSubHeadingListEnd
+
+%-----------REFERENCES-----------------
+\section{References}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Dr. Deepti Reddy Bathula}{\href{mailto:bathula@iitrpr.ac.in}{\underline{bathula@iitrpr.ac.in}}}
+    {Associate Professor, IIT Ropar}{Rupnagar, Punjab}
+  \resumeSubheading
+    {Dr. Seema Bawa}{\href{mailto:seema@thapar.edu}{\underline{seema@thapar.edu}}}
+    {Professor, TIET}{Patiala, Punjab}
+\resumeSubHeadingListEnd
+
+\end{document}

@@ -10,10 +10,11 @@
 {% endfor %}
 ---
 
-## Extracurricular and Volunteer
+## Extracurricular and Volunteering Activities
 
 {% for extra in extracurricular %}
 - **{{ extra.title }} ({{ extra.year }})**  
   {{ extra.description.replace('\\&', '&') }}
+  Location: {{ extra.location }}
 
 {% endfor %}

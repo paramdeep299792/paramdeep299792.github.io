@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Paramdeep Singh Gill",
-    "phone": "+91 78147 08827",
+    "website": "https://www.paramdeepsinghgill16.net",
     "email": "paramdeepsinghgill16@gmail.com",
     "linkedin": "https://www.linkedin.com/in/paramdeepsinghgill16/",
     "github": "https://github.com/paramdeepsinghgill16"
@@ -153,12 +153,26 @@
     {
       "title": "International Conference on Statistical Learning (ICSL)",
       "year": "2025",
-      "description": "Presented 'Systematic Approach to Enhance Signal Quality...'"
+      "description": "Presented 'Systematic Approach to Enhance Signal Quality...'",
+      "location": "Rupnagar, Punjab"
+    },
+    {
+      "title": "Open Web Application Security Project (OWASP)",
+      "year": "2022 - 2023",
+      "description": "Team Member: Presented a session on blockchain as part of orientation of first year students.",
+      "location": "Patiala, Punjab"
     },
     {
       "title": "Center for Training and Development (CTD)",
-      "year": "2021 -- 2022",
-      "description": "Senior Coordinator: Coordinated the Placement Symposium."
+      "year": "2021 -- 2023",
+      "description": "Senior Coordinator: Coordinated the Placement Symposium.",
+      "location": "Patiala, Punjab"
+    },
+    {
+      "title": "International Award for Young People (IAYP)",
+      "year": "2019",
+      "description": "Successfully completed Bronze Category Course.",
+      "location": "Jalandhar, Punjab"
     }
   ],
   "references": [
