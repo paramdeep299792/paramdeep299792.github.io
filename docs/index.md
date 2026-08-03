@@ -1,8 +1,8 @@
 # Paramdeep Singh Gill
 
-- **Email:** [paramdeepsinghgill16@gmail.com](mailto:paramdeepsinghgill16@gmail.com)
-- **LinkedIn:** [paramdeepsinghgill16](https://www.linkedin.com/in/paramdeepsinghgill16/)
-- **GitHub:** [paramdeepsinghgill16](https://github.com/paramdeepsinghgill16)
+- [paramdeepsinghgill16@gmail.com](mailto:paramdeepsinghgill16@gmail.com)
+- [linkedin.com/in/paramdeepsinghgill16/](https://linkedin.com/in/paramdeepsinghgill16/)
+- [github.com/paramdeepsinghgill16/](https://github.com/paramdeepsinghgill16/)
 
 ---
 

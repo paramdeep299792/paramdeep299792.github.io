@@ -3,8 +3,8 @@
     "name": "Paramdeep Singh Gill",
     "website": "https://www.paramdeepsinghgill16.net",
     "email": "paramdeepsinghgill16@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/paramdeepsinghgill16/",
-    "github": "https://github.com/paramdeepsinghgill16"
+    "linkedin": "https://linkedin.com/in/paramdeepsinghgill16/",
+    "github": "https://github.com/paramdeepsinghgill16/"
   },
   "education": [
     {
@@ -82,8 +82,7 @@
     {
       "title": "Qualified for National Championship of World Robot Olympiad (WRO)",
       "year": "2016 and 2017",
-      "description": "For the year 2016 \\& 2017. Secured third position in Regional Championship of WRO 2017.",
-      "location": ""
+      "description": "For the year 2016 \\& 2017. Secured third position in Regional Championship of WRO 2017."
     }
   ],
   "ongoing_projects": [
@@ -150,6 +149,25 @@
     "Development Frameworks": "Django, Flutter, Firebase"
   },
   "extracurricular": [
+    {
+      "title": "WRO 2026 Regional Championship, Chandigarh",
+      "year": "8 July, 2026",
+      "description": "Judged the participants in 'Future Innovators' category.",
+      "location": "SAS nagar, Punjab",
+      "attachments": [
+        {
+          "name": "Event Photo",
+          "path": "assets/photos/wro_2026_reg_chandigarh_photo.jpeg",
+          "type": "image",
+          "inline": true
+        },
+        {
+          "name": "Certificate of Presentation (PDF)",
+          "path": "assets/certificates/wro_2026_reg_chandigarh_certificate.pdf",
+          "type": "pdf"
+        }
+      ]
+    },
     {
       "title": "International Conference on Statistical Learning (ICSL)",
       "year": "2025",

@@ -18,3 +18,6 @@ nav:
   - Awards & Activities: achievements.md
   - CV: cv.md
   - References: references.md
+
+extra_css:
+  - assets/css/custom.css

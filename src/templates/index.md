@@ -1,8 +1,8 @@
 # {{ basics.name }}
 
-- **Email:** [{{ basics.email }}](mailto:{{ basics.email }})
-- **LinkedIn:** [{{ basics.linkedin.split('in/')[1].strip('/') }}]({{ basics.linkedin }})
-- **GitHub:** [{{ basics.github.split('github.com/')[1].strip('/') }}]({{ basics.github }})
+- [{{ basics.email }}](mailto:{{ basics.email }})
+- [{{ basics.linkedin.split('https://')[1] }}]({{ basics.linkedin }})
+- [{{ basics.github.split('https://')[1] }}]({{ basics.github }})
 
 ---
 
