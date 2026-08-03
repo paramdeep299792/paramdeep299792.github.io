@@ -32,9 +32,10 @@
       "company_url": "https://www.iitrpr.ac.in/",
       "location": "Rupnagar, Punjab",
       "title": "Research intern",
-      "dates": "January 2025 -- June 2025",
+      "dates": "January 2025 - June 2025",
       "highlights": [
-        "Explored Knowledge Distillation for Model Compression in Medical Domain. Under the guidance of Dr. Deepti Reddy Bathula (Indian Institute of Technology (IIT) Ropar, India)"
+        "Explored Knowledge Distillation for Model Compression in Medical Domain.",
+        "Under the guidance of Dr. Deepti Reddy Bathula (Indian Institute of Technology (IIT) Ropar, India)"
       ]
     },
     {
@@ -42,7 +43,7 @@
       "company_url": "https://agnext.com/",
       "location": "Sahibzada Ajit Singh (S.A.S.) nagar, Punjab",
       "title": "Android developer intern",
-      "dates": "May 2023 -- August 2023",
+      "dates": "May 2023 - August 2023",
       "highlights": [
         "Flutter: Built android apps that connect to BLE devices."
       ]

@@ -4,9 +4,9 @@
 
 {% for proj in ongoing_projects %}
 ### {{ proj.title }} ({{ proj.type }})
-*{{ proj.year }} | {{ proj.location }}*
-{% for highlight in proj.highlights %}
-- {{ highlight.replace('\\&', '&') }}
+*{{ proj.year }} | {{ proj.location }}*  
+{% for highlight in proj.highlights %}  
+- {{ highlight.replace('\\&', '&') }}  
 {% endfor %}
 
 {% endfor %}
@@ -16,9 +16,9 @@
 
 {% for proj in projects %}
 ### {{ proj.title }} ({{ proj.type }})
-*{{ proj.year }} | {{ proj.location }}*
-{% for highlight in proj.highlights %}
-- {{ highlight.replace('\\&', '&') }}
+*{{ proj.year }} | {{ proj.location }}*  
+{% for highlight in proj.highlights %}  
+- {{ highlight.replace('\\&', '&') }}  
 {% endfor %}
 
 {% endfor %}

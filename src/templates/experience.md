@@ -4,10 +4,10 @@
 
 {% for job in experience %}
 ### [{{ job.company }}]({{ job.company_url }})
-**{{ job.title }}** | *{{ job.dates }}*  
-*{{ job.location }}*
-{% for highlight in job.highlights %}
-- {{ highlight.replace('\\&', '&') }}
+**{{ job.title }}** | *{{ job.dates }}*   
+*{{ job.location }}*  
+{% for highlight in job.highlights %}  
+- {{ highlight.replace('\\&', '&') }}  
 {% endfor %}
 
 {% endfor %}
