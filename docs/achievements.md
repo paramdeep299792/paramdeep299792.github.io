@@ -30,6 +30,11 @@
 
 ## Extracurricular and Volunteering Activities
 
+- **WRO 2026 Regional Championship, Jaipur (8 August, 2026)**  
+  *Jaipur, Rajasthan  
+  *Judged the participants in 'Future Innovators' category.  
+  **Attachments:** None
+
 - **WRO 2026 Regional Championship, Chandigarh (8 July, 2026)**  
   *SAS nagar, Punjab  
   *Judged the participants in 'Future Innovators' category.  
