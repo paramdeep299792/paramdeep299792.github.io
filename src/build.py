@@ -46,7 +46,7 @@ def main(args: argparse.Namespace) -> None:
             with open(root_dir / 'main.tex', 'w') as f:
                 f.write(rendered_tex)
 
-            output_dir = root_dir / "temp"
+            output_dir = root_dir / "tmp"
             output_dir.mkdir(exist_ok=True)
 
             final_destination = root_dir / "docs" / "assets" / "CV.pdf"
