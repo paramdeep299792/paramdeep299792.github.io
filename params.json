@@ -3,14 +3,21 @@
     "name": "Paramdeep Singh Gill",
     "website": "https://paramdeep299792.github.io/",
     "email": "paramdeep299792@gmail.com",
+    "o_email": "paramdeepsg.cs.26@thapar.edu",
     "linkedin": "https://linkedin.com/in/paramdeep299792/",
     "github": "https://github.com/paramdeep299792/"
   },
   "education": [
     {
-      "institution": "Thapar Insitute of Engineering and Technology (TIET)",
+      "institution": "Dr. B. R. Ambedkar National Institute of Technology (N.I.T.) Jalandhar",
+      "location": "Jalandhar, Punjab",
+      "degree": "Master of Technology (M.Tech.) in Computer Science and Engineering, CGPA: NA",
+      "dates": "July 2026 -- Present"
+    },
+    {
+      "institution": "Thapar Insitute of Engineering and Technology (T.I.E.T.)",
       "location": "Patiala, Punjab",
-      "degree": "Bachelor of Engineering in Computer Engineering, CGPA: 8.09",
+      "degree": "Bachelor of Engineering (B.E.) in Computer Engineering, CGPA: 8.09",
       "dates": "Sep 2021 -- Jun 2025"
     },
     {
