@@ -20,8 +20,12 @@
 
 ## Education
 
-### Thapar Insitute of Engineering and Technology (TIET)
-**Bachelor of Engineering in Computer Engineering, CGPA: 8.09** | *Sep 2021 -- Jun 2025*  
+### Dr. B. R. Ambedkar National Institute of Technology (N.I.T.) Jalandhar
+**Master of Technology (M.Tech.) in Computer Science and Engineering, CGPA: NA** | *July 2026 -- Present*  
+*Jalandhar, Punjab*
+
+### Thapar Insitute of Engineering and Technology (T.I.E.T.)
+**Bachelor of Engineering (B.E.) in Computer Engineering, CGPA: 8.09** | *Sep 2021 -- Jun 2025*  
 *Patiala, Punjab*
 
 ### Apeejay School, Mahavir Marg (C.B.S.E. affliated)
