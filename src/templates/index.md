@@ -2,7 +2,7 @@
 
 - [{{ basics.o_email }}](mailto:{{ basics.o_email }})
 - [{{ basics.email }}](mailto:{{ basics.email }})
-- *s*.paramdeep299792.me, ∀ *s* ∈ { [linkedin]({{ basics.linkedin }}), [github]({{ basics.github }}), [x]({{ basics.x }}), [instagram]({{ basics.instagram }}), [orcid]({{ basics.instagram }}) }
+- *s*.paramdeep299792.me, ∀ *s* ∈ {[linkedin]({{ basics.linkedin }}), [github]({{ basics.github }}), [x]({{ basics.x }}), [instagram]({{ basics.instagram }}), [orcid]({{ basics.orcid }})}
 
 ---
 
