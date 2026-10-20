@@ -1,8 +1,8 @@
 # {{ basics.name }}
 
+- [{{ basics.o_email }}](mailto:{{ basics.o_email }})
 - [{{ basics.email }}](mailto:{{ basics.email }})
-- [{{ basics.linkedin.split('https://')[1] }}]({{ basics.linkedin }})
-- [{{ basics.github.split('https://')[1] }}]({{ basics.github }})
+- *s*.paramdeep299792.me, ∀ *s* ∈ { [linkedin]({{ basics.linkedin }}), [github]({{ basics.github }}), [x]({{ basics.x }}), [instagram]({{ basics.instagram }}), [orcid]({{ basics.instagram }}) }
 
 ---
 

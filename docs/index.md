@@ -1,8 +1,8 @@
 # Paramdeep Singh Gill
 
+- [paramdeepsg.cs.26@nitj.ac.in](mailto:paramdeepsg.cs.26@nitj.ac.in)
 - [paramdeep299792@gmail.com](mailto:paramdeep299792@gmail.com)
-- [linkedin.com/in/paramdeep299792/](https://linkedin.com/in/paramdeep299792/)
-- [github.com/paramdeep299792/](https://github.com/paramdeep299792/)
+- *s*.paramdeep299792.me, ∀ *s* ∈ { [linkedin](https://linkedin.paramdeep299792.me/), [github](https://github.paramdeep299792.me/), [x](), [instagram](), [orcid]() }
 
 ---
 

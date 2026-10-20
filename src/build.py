@@ -16,6 +16,7 @@ def main(args: argparse.Namespace) -> None:
     try:
         cv = args.cv
         website = args.website
+        bio = args.bio
 
         if cv:
             src_dir = Path(__file__).resolve().parent
@@ -27,6 +28,11 @@ def main(args: argparse.Namespace) -> None:
 
             templates_dir = root_dir / 'src' / 'templates'
 
+            setup_logging(
+                log_file=root_dir / "build.log",
+                reset_log=True
+            )
+            
             # 2. Configure Jinja2
             latex_jinja_env = jinja2.Environment(
                 block_start_string=r'\BLOCK{',
@@ -87,10 +93,8 @@ def main(args: argparse.Namespace) -> None:
         if website:
             src_dir = Path(__file__).resolve().parent
             root_dir = src_dir.parent
-
             setup_logging(
-                log_file=root_dir / "build.log",
-                reset_log=True
+                log_file=root_dir / "build.log"
             )
 
             templates_dir = root_dir / 'src' / 'templates'
@@ -126,6 +130,39 @@ def main(args: argparse.Namespace) -> None:
                 logger.info(f"Generated: docs/{output_name}")
 
             logger.info("MkDocs Markdown generation complete!")
+
+        if bio:
+            src_dir = Path(__file__).resolve().parent
+            root_dir = src_dir.parent
+            json_filename = root_dir / 'params.json'
+            output_filename = root_dir / 'outputs' / 'bio.txt'
+            
+            try:
+                data = load_data(json_filename)
+            except FileNotFoundError:
+                logger.error(f"Error: Please ensure your JSON data is saved as '{json_filename}' in the same directory.")
+                return
+            except json.JSONDecodeError:
+                logger.error("Error: The JSON file is improperly formatted.")
+                return
+
+            github_readme = generate_github_readme(data)
+            social_bios = generate_social_bios(data)
+            linkedin_about = generate_linkedin_about(data)
+            
+            final_output = (
+                "================ GITHUB PROFILE README ================\n\n" +
+                github_readme +
+                "\n\n================ SOCIAL MEDIA BIOS ================\n\n" +
+                social_bios +
+                "\n\n================ LINKEDIN SECTION ================\n\n" +
+                linkedin_about
+            )
+            
+            with open(output_filename, 'w', encoding='utf-8') as f:
+                f.write(final_output)
+                
+            logger.info(f"Success! Your profiles have been generated and saved to '{output_filename}'.")
     except Exception as e:
         exception_handler(e)
 
@@ -136,6 +173,7 @@ def cli() -> None:
 
     parser.add_argument("-website", "--website", action="store_true", help="To create the website.")
     parser.add_argument("-cv", "--cv", action="store_true", help="To create CV.")
+    parser.add_argument("-bio", "--bio", action="store_true", help="To create bio.")
 
     if len(sys.argv) == 1:
         parser.print_help(sys.stderr)

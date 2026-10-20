@@ -3,5 +3,7 @@ __pycache__/
 
 site/
 tmp/
+outputs/
 
 build.log
+load.py
