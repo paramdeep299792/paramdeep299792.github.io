@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+with:
+  cname: paramdeep299792.me
 permissions:
   contents: write
 jobs:
