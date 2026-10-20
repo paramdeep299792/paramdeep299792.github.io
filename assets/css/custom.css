@@ -1,0 +1,16 @@
+/* Styling for attachment images */
+.attachment-img {
+    max-width: 400px;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Ensure it scales down perfectly on mobile screens */
+@media screen and (max-width: 480px) {
+    .attachment-img {
+        max-width: 100%;
+    }
+}
