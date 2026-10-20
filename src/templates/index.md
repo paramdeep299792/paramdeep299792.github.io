@@ -1,8 +1,8 @@
 # {{ basics.name }}
 
-- [{{ basics.o_email }}](mailto:{{ basics.o_email }})
-- [{{ basics.email }}](mailto:{{ basics.email }})
-- *s*.paramdeep299792.me, ∀ *s* ∈ {[linkedin]({{ basics.linkedin }}), [github]({{ basics.github }}), [x]({{ basics.x }}), [instagram]({{ basics.instagram }}), [orcid]({{ basics.orcid }})}
+- [<u>{{ basics.o_email }}</u>](mailto:{{ basics.o_email }})
+- [<u>{{ basics.email }}</u>](mailto:{{ basics.email }})
+- **s**.[<u>paramdeep299792.me</u>]({{ basics.website}}), ∀ **s** ∈ {[**<u>linkedin</u>**]({{ basics.linkedin }}), [**<u>github</u>**]({{ basics.github }}), [**<u>x</u>**]({{ basics.x }}), [**<u>instagram</u>**]({{ basics.instagram }}), [**<u>orcid</u>**]({{ basics.orcid }})}
 
 ---
 

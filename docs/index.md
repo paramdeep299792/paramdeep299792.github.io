@@ -1,8 +1,8 @@
 # Paramdeep Singh Gill
 
-- [paramdeepsg.cs.26@nitj.ac.in](mailto:paramdeepsg.cs.26@nitj.ac.in)
-- [paramdeep299792@gmail.com](mailto:paramdeep299792@gmail.com)
-- *s*.paramdeep299792.me, ∀ *s* ∈ { [linkedin](https://linkedin.paramdeep299792.me/), [github](https://github.paramdeep299792.me/), [x](), [instagram](), [orcid]() }
+- [<u>paramdeepsg.cs.26@nitj.ac.in</u>](mailto:paramdeepsg.cs.26@nitj.ac.in)
+- [<u>paramdeep299792@gmail.com</u>](mailto:paramdeep299792@gmail.com)
+- **s**.[<u>paramdeep299792.me</u>](https://paramdeep299792.me/), ∀ **s** ∈ {[**<u>linkedin</u>**](https://linkedin.paramdeep299792.me/), [**<u>github</u>**](https://github.paramdeep299792.me/), [**<u>x</u>**](https://x.paramdeep299792.me/), [**<u>instagram</u>**](https://instagram.paramdeep299792.me/), [**<u>orcid</u>**](https://orcid.paramdeep299792.me/)}
 
 ---
 
